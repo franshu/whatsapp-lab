@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Whatsapp</title>
+	<link href="assets/fonts/roboto/Roboto-Regular.woff">
+	<link href="assets//materialize.min.css"> <!--ENLAZAR MATERIAlize,no me funcionó puedo ver nada :c-->
+	<linK href="assets/css/materialize.css">
+	<!--<link href="assets/Kit/Materialize/materialize/css/materialize.min.css">
+	<link href="assets/Kit/Materialize/materialize/css/materialize.css">-->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<!--header -->
+	<header>
+		<div class= row>
+			<div class= container>
+					<div class="col m4 offset-m1">
+						<img class="img-responsive cirle user-login" src="assets/img/gian.jpg"> <!--usuario logueado en wsp-->
+						<i class="material-icons prefix">perm_chat</i>
+						<i class="material-icons prefix">perm_puntos</i>
+					</div>
+				<div class="divider"></div><!-- hacerlo horizontal-->
+				<div class="col m6 offset-m1">
+					<div id="chat-enCurso">
+					<!--debe tomar el contacto de la lista lateral-->
+					</div>
+					<i class="material-icons prefix">perm_clip</i>
+					<i class="material-icons prefix">perm_puntos</i>
+				</div>
+			</div>
+		</div>
+	</header><!-- /.nav-->
+<!-- CHAT -->
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col m4 offset-m1"><!-- Contactos-->
+					<input type="text" class="form-control" placeholder="Buscar o empezar un chat nuevo"><!--SEARCH-->
+					<!--Lista -->
+						<ul id="contactos">
+							<li>
+								<img class="responsive-img cirle contact-img" src="assets/img/logocodeacademy.png">
+								<a>laboratoria Chile</a>
+								<p>no se pique!!</p>
+							</li>
+							<div class="divider"></div>
+							<li>
+								<img class="responsive-img cirle contact-img" src="assets/img/raymi.jpg"> 
+								<a>Raymi Saldomando</a>
+								<p>La clase va bien!!</p>
+							</li>
+							<div class="divider"></div>
+							<li>
+								<img class="responsive-img cirle contact-img" src="assets/img/mariana.jpg"> 
+								<a>Mariana Costa</a>
+								<p>El Panel de speaker está buenazo</p>
+							</li>
+							<div class="divider"></div>
+							<li>
+								<img class="responsive-img cirle contact-img" src="assets/img/anamaria.jpg"> 
+								<a>Ana María Martinez Franklin</a>
+								<p>pues dale chamo</p>
+							</li>
+							<div class="divider"></div>
+							<li>
+								<img class="responsive-img cirle contact-img" src="assets/img/rodulfo.jpg"> 
+								<a>Rodolfo Prieto</a>
+								<p>¿Cómo van las chicas?</p>
+							</li>
+							<div class="divider"></div>
+							<li>
+								<img class="responsive-img cirle contact-img" src="assets/img/andrea.jpg"> 
+								<a>Andrea Lamas</a>
+								<p>Hoy me toca clases de canto, yee!</p>
+							</li>
+							<div class="divider"></div>
+							<li>
+								<img class="responsive-img cirle contact-img" src="assets/img/mariapaula.jpg"> 
+								<a>Maria Paula Rivarola</a>
+								<p>Wuju! esto me encanta!! en verdad!</p>
+							</li>
+							<div class="divider"></div>
+							<li>
+								<img class="responsive-img cirle contact-img" src="assets/img/katy.jpg"> 
+								<a>Katy Sanchez</a>
+								<p>No te preocupes tengo el salón bajo control</p>
+							</li>
+							<div class="divider"></div>
+							<li>
+								<img class="responsive-img cirle contact-img" src="assets/img/aldo.jpg"> 
+								<a>Aldo Alfaro</a>
+								<p>Vamos a comer?</p>
+							</li>
+						</ul>	
+				</div><!-- /.Lista contactos-->
+				<div class="col m6 offset-m1"><!-- CHAT en curso -->
+					<div class="dashboard bg-img">
+					<!-- aca debe imprimirsr el chat como en un to Do -->
+					</div>
+
+					<div id="chat-base">
+						<i class="material-icons prefix">perm_chat</i>
+						<imput type="text" placeholder="Escribe tu mensaje aquí" id="chat-imput">
+					</div>
+				</div>
+
+					
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- /.cierre -->
+
+
+
+<!--Script-->
+  <!-- font awesome -->
+  	<script src="https://use.fontawesome.com/7c2c73414b.js"></script>
+  <!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- javaScript -->
+	<script src="assets/js/main.js"></script>
+	
+</body>
+</html>
